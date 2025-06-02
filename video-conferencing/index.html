@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <!-- My header section -->
+  <header class="header">
+    <div class="logo">vidco</div>
+    <nav>
+      <a href="#">About</a>
+      <a href="#">Plans</a>
+      <a href="signup.html" class="signup-btn">Sign Up</a>
+    </nav>
+  </header>
+
+  <!-- My Hero section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Bring people<br>together to make<br><span>tickcles</span> happen</h1>
+      <p>Revolutionary video calling app for design and code reviews. With Vidco, it’s never to leave your house again.</p>
+      <div class="call-flow">
+        <button class="primary-btn" onclick="openCallPopup()">Start a Call</button>
+
+        <div class="call-popup" id="callPopup">
+          <p>Choose an option:</p>
+          <button onclick="callImmediately()">Call Immediately</button>
+          <button onclick="showScheduler()">Schedule for Later</button>
+
+          <div class="schedule-fields" id="scheduleFields">
+          <input type="datetime-local" id="scheduleTime">
+          <button onclick="confirmScheduledCall()">Confirm</button>
+          </div>
+
+          <button class="close-btn" onclick="closePopup()">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <img src="/Images/Frame 37.png" alt="Video call preview" class="hero-img">
+  </section>
+
+  <!-- My second Section -->
+  <section class="middle-section">
+    <img src="/Images/unsplash_smgTvepind4.png" alt="Zoom meeting" class="center-img">
+    <h2>Making video call amazing</h2>
+    <p>Tickcle is a simple yet powerful video app that connects you to your co-workers through lightweight videoconferencing. It’s perfect for design sessions, brainstorm sessions, code reviews, business meetings, customer support, product demos and much more...</p>
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <h3>Features</h3>
+    <div class="feature-grid">
+      <div>
+        <strong>Noise Cancellation</strong>
+        <p>Smart filtering to remove noise and boost your voice</p>
+      </div>
+      <div>
+        <strong>Camera Auto Follow</strong>
+        <p>Smart filtering to remove noise and boost your voice</p>
+      </div>
+      <div>
+        <strong>Voice Rooms</strong>
+        <p>Smart filtering to remove noise and boost your voice</p>
+      </div>
+      <div>
+        <strong>Beautify</strong>
+        <p>Smart filtering to remove noise and boost your voice</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to action -->
+  <section class="cta">
+    <h2>Meet & discuss on the go</h2>
+    <p>Boost your team's productivity with seamless, high-quality video calls designed for fast-paced collaboration. No more communication delays—switch between devices, record meetings, or finalize decisions with Vidco calling experience. Get started today.</p>
+    <button class="secondary-btn">Get vidco</button>
+  </section>
+      <script src="/script.js"></script>
+
+  <!-- My Footer Section  -->
+  <footer class="footer">
+    <div class="logo">vidco</div>
+    <div class="links">
+      <a href="#">About Vidco</a>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </div>
+  </footer>
+
+</body>
+</html>
