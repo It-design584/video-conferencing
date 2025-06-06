@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
     "Helvetica Neue", sans-serif, Poppins;
-    "Helvetica Neue", sans-serif, Poppins;
 }
 
 body {
@@ -41,7 +40,6 @@ header {
   color: #9b4dca;
   font-weight: 600;
   font-size: 16px;
-  font-size: 16px;
 }
 
 nav {
@@ -54,12 +52,9 @@ nav ul {
   display: flex;
   list-style: none;
   gap: 30px;
-  margin-left: 1200px;
-  margin-left: 1200px;
 }
 
 nav a {
-  color: #000000;
   color: #000000;
   text-decoration: none;
   font-size: 14px;
@@ -96,14 +91,11 @@ nav a:hover::after {
   background-color: transparent;
   color: #c76bda;
   border: 1px solid #c76bda;
-  color: #c76bda;
-  border: 1px solid #c76bda;
   transition: all 0.3s ease;
   white-space: nowrap;
 }
 
 .sign-up-btn:hover {
-  background-color: #c76bda;
   background-color: #c76bda;
   color: white;
 }
@@ -118,15 +110,12 @@ nav a:hover::after {
 
 .hero h1 {
   font-size: 38px;
-  font-size: 38px;
   margin-bottom: 15px;
 }
 
 .hero p {
   max-width: 600px;
   margin: 0 auto;
-  font-size: 15px;
-  font-weight: 500;
   font-size: 15px;
   font-weight: 500;
   line-height: 1.6;
@@ -143,7 +132,6 @@ nav a:hover::after {
   gap: 30px;
   margin-top: 20px;
   color: #998da0;
-  color: #998da0;
 }
 
 .column {
@@ -155,13 +143,11 @@ h2 {
   font-size: 30px;
   margin-bottom: 15px;
   color: #463853;
-  color: #463853;
 }
 
 .content-text {
   font-size: 14px;
   line-height: 1.6;
-  color: #998da0;
   color: #998da0;
   margin-bottom: 15px;
 }
@@ -186,9 +172,7 @@ h2 {
 .team-image {
   width: 100%;
   max-width: 1500px;
-  max-width: 1500px;
   height: auto;
-  border-radius: 50px;
   border-radius: 50px;
 }
 
@@ -213,13 +197,7 @@ h2 {
 }
 
 /* Testimonials Section - Fixed for infinite scroll */
-/* Testimonials Section - Fixed for infinite scroll */
 .testimonials {
-  padding: 60px 30px;
-  background-color: #f9f9f9;
-}
-
-.section-heading {
   padding: 60px 30px;
   background-color: #f9f9f9;
 }
@@ -229,8 +207,6 @@ h2 {
   font-size: 2rem;
   margin: 0 0 1rem;
   color: #463853;
-  margin: 0 0 1rem;
-  color: #463853;
 }
 
 .testimonials-intro {
@@ -238,18 +214,7 @@ h2 {
   margin: 0 auto 3rem;
   padding: 0 1rem;
   text-align: center;
-  color:#998DA0;
-  font-size: 1.1rem;
-  line-height: 1.6;
-}
-
-.marquee-wrapper {
-.testimonials-intro {
-  max-width: 800px;
-  margin: 0 auto 3rem;
-  padding: 0 1rem;
-  text-align: center;
-  color:#998DA0;
+  color: #666;
   font-size: 1.1rem;
   line-height: 1.6;
 }
@@ -259,26 +224,18 @@ h2 {
   width: 100%;
   background: transparent;
   padding: 2rem 0;
-  background: transparent;
-  padding: 2rem 0;
   position: relative;
-  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
-  -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
   mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
   -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
 }
 
 .marquee-track {
-.marquee-track {
   display: flex;
-  gap: 2rem;
-  animation: scroll-marquee 30s linear infinite;
   gap: 2rem;
   animation: scroll-marquee 30s linear infinite;
   width: fit-content;
 }
 
-.marquee-track:hover {
 .marquee-track:hover {
   animation-play-state: paused;
 }
@@ -287,19 +244,10 @@ h2 {
   flex: 0 0 320px;
   background: white;
   border: 1px solid #e0e0e0;
-  flex: 0 0 320px;
-  background: white;
-  border: 1px solid #e0e0e0;
   border-radius: 12px;
   padding: 2rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   height: 200px;
   display: flex;
   flex-direction: column;
@@ -315,21 +263,9 @@ h2 {
   font-size: 1.2rem;
   color: #463853;
   margin-bottom: 0.5rem;
-  color: #463853;
-  margin-bottom: 0.5rem;
   font-weight: 600;
 }
 
-.testimonial-card p {
-  color: #666;
-  line-height: 1.5;
-  font-size: 0.95rem;
-  margin-bottom: 0.5rem;
-}
-
-.author {
-  font-weight: 600;
-  color: #9b4dca;
 .testimonial-card p {
   color: #666;
   line-height: 1.5;
@@ -359,7 +295,6 @@ h2 {
   }
   100% {
     transform: translateX(-50%);
-    transform: translateX(-50%);
   }
 }
 
@@ -379,7 +314,7 @@ h2 {
 }
 
 .team-section h1 {
-  color:#463853;
+  color: #2d2d2d;
   font-size: 2.5rem;
   margin-bottom: 20px;
   font-weight: 700;
@@ -387,7 +322,7 @@ h2 {
 }
 
 .team-section .subtitle {
-  color: #998DA0;
+  color: #666;
   margin-bottom: 50px;
   max-width: 600px;
   margin-left: auto;
@@ -410,6 +345,7 @@ h2 {
 }
 
 .team-card {
+  /* Remove all card styling - no background, shadow, padding, etc. */
   background: transparent;
   border-radius: 0;
   padding: 0;
@@ -417,60 +353,26 @@ h2 {
   transition: transform 0.3s ease;
   text-align: center;
   width: 280px !important;
-  height: auto !important; 
-.team-section .subtitle {
-  color: #998DA0;
-  margin-bottom: 50px;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 1.6;
-  text-align: center;
-  font-size: 1.1rem;
-}
-
-.team-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 40px;
-  margin-top: 40px;
-  justify-items: center;
-  align-items: start;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.team-card {
-  background: transparent;
-  border-radius: 0;
-  padding: 0;
-  box-shadow: none;
-  transition: transform 0.3s ease;
-  text-align: center;
-  width: 280px !important;
-  height: auto !important; 
+  height: auto !important; /* Changed from fixed height */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-  gap: 15px; 
+  gap: 15px; /* Add spacing between elements */
 }
 
 .team-card:hover {
-  transform: none; 
+  transform: none; /* Remove card hover effect */
   box-shadow: none;
 }
 
 /* Keep the circular image styling */
 .team-card img {
-  width: 180px;
-  height: 180px;
-  border-radius: 80%;
+  width: 180px; /* Changed from 120px - make this bigger */
+  height: 180px; /* Changed from 120px - make this bigger */
+  border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 0; 
+  margin-bottom: 0; /* Remove margin since we're using gap */
   border: 4px solid #f0f0f0;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   flex-shrink: 0;
@@ -485,18 +387,18 @@ h2 {
 .team-card h3 {
   font-size: 1.4rem;
   margin-bottom: 0;
-  color: #463853;
+  color: #333;
   font-weight: 600;
   flex-shrink: 0;
 }
 
 .team-card p {
-  color: #998DA0;
+  color: #666;
   font-size: 1rem;
   margin: 0;
   line-height: 1.4;
   text-align: center;
-  max-width: 200px; 
+  max-width: 200px; /* Limit text width for better readability */
 }
 
 footer {
@@ -510,19 +412,16 @@ footer {
   display: flex;
   align-items: center;
   gap: 15px;
-  gap: 15px;
 }
 
 .about-link {
-  color:#000000;
-  color:#000000;
+  color: #333;
   text-decoration: none;
   font-size: 14px;
 }
 
 .footer-right {
   display: flex;
-  gap: 15px;
   gap: 15px;
 }
 
@@ -531,11 +430,6 @@ footer {
   text-decoration: none;
   font-size: 14px;
 }
-.footer-link:hover,
-.about-link:hover {
-  color: #9b4dca;
-} 
-} 
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -556,28 +450,21 @@ footer {
   }
 
   .team-card img {
-    width: 100px;
-    height: 100px;
+    width: 150px; /* Changed from 100px */
+    height: 150px; /* Changed from 100px */
   }
-
 
   .testimonial-card {
     flex: 0 0 280px;
     padding: 1.5rem;
-    padding: 1.5rem;
   }
 
-  .marquee-track {
-    gap: 1.5rem;
   .marquee-track {
     gap: 1.5rem;
   }
 }
 
 @media (max-width: 480px) {
-  .team-container {
-    grid-template-columns: 1fr;
-    gap: 15px;
   .team-container {
     grid-template-columns: 1fr;
     gap: 15px;
